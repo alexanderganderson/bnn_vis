@@ -7,8 +7,8 @@ import cPickle as pkl
 MNIST = 'MNIST'
 CIFAR10 = 'cifar-10'
 
-MNIST_DATA_PATH = '/home/cberg/mnist'
-CIFAR10_DATA_PATH = '/home/aga/cifar10/cifar-10-batches-py'
+MNIST_DATA_PATH = 'data/mnist'
+CIFAR10_DATA_PATH = 'data/cifar10/cifar-10-batches-py'
 
 
 def unpickle(fn):

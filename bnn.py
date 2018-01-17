@@ -38,7 +38,7 @@ class BinaryNeuralNetwork(object):
         param_file=None
     ):
         """
-
+        Create a binary neural network.
 
         Parameters
         ----------
@@ -141,7 +141,7 @@ class BinaryNeuralNetwork(object):
             for i in range(fc_layers):
                 bin_act = True
                 bin_weights = True
-                # FIXME: Terrible
+                # FIXME: weights and activations for FC layer always binary
                 bin_act1 = (i < fc_layers - 1) and bin_act
                 top, tensor_dict = add_binary_layer(
                     top,

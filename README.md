@@ -33,11 +33,11 @@ other neural network architectures such as recurrent neural networks.
 
 ## Quickstart:
 
-1. Download the relevant datasets:
-* MNIST
-* CIFAR10
+1. Download the relevant datasets. From the data directory, run:
 
-Edit the paths in `data/load_data.py` to point to the relevant directories.
+`python download_data.py --data_set MNIST`
+
+`python download_data.py --data_set cifar-10`
 
 2. Run a quick test: `python bnn_test.py`
 

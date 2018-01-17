@@ -29,7 +29,7 @@ def setup(argv=None):
     parser.add_argument('--param_file', type=str, default=None,
                         help="file containing saved model if it exists")
 
-    parser.add_argument('--data_set', type=str, default='cifar-10',
+    parser.add_argument('--data_set', type=str, default=CIFAR10,
                         help="data set to train")
 
     parser.add_argument('--batch_size', type=int, default=50,
