@@ -39,9 +39,12 @@ other neural network architectures such as recurrent neural networks.
 
 `python download_data.py --data_set cifar-10`
 
-2. Run a quick test: `python bnn_test.py`
+2. (Optional) Run a quick test: `python bnn_test.py`
 
-3. Train a network: `python run_bnn.py`
+Run a longer test: `python run_bnn.py --debug` (trains a network on a small
+fraction of CIFAR10)
+
+3. Train a full network: `python run_bnn.py`
 
 4. Visualize a trained network: `jupyter notebook gen_plots.ipynb`
 
