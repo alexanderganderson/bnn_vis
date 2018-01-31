@@ -3,7 +3,7 @@
 This repository contains code to reproduce the results in the following
 paper:
 
-[The High-Dimensional Geometry of Binary Neural Networks](https://arxiv.org/abs/1705.07199)
+[The High-Dimensional Geometry of Binary Neural Networks](https://openreview.net/forum?id=B1IDRdeCW)
 
 Alexander G. Anderson, Cory P. Berg
 
